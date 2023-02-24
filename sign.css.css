@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url("fan.jpg");
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width:350px;
+    height: 40px;
+    margin: 20px;
+    border:none;
+    outline:name;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+button{
+    width: 350px;
+    height:40px;
+    font-size: 20px;
+    background-color: rgb(240, 115, 134);
+    border: none;
+    color: white;
+}
+form h1{
+    margin-bottom: 30px;
+}
